@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:css-modules/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "css-modules", "prettier"],
+  "rules": {
+    "prettier/prettier": 1, // add warning for prettier
+    // code validation
+    "@typescript-eslint/no-explicit-any": "warn",
+    "prefer-arrow-callback": "warn"
+  }
+}
