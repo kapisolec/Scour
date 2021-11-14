@@ -79,7 +79,7 @@ Runs `jest --watch` which runs unit tests with jest runner
 
 Runs `jest --coverage` which runs unit tests with jest runner and generates coverage report
 
-### `yarn test:ci"`
+### `yarn test:ci`
 
 Runs `jest --forceExit --detectOpenHandles --maxWorkers=10 ` which runs unit tests with jest runner for CI/CD environment
 
